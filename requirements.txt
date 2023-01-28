@@ -2,3 +2,4 @@ pyrogram
 dotmap
 aiohttp
 aiofiles
+asyncio
