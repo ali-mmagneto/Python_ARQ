@@ -1,4 +1,4 @@
-from asyncio.exceptions import TimeoutError as TimeoutErr
+from asyncio.futures import TimeoutError as TimeoutErr
 from base64 import b64decode
 from json import dumps
 from re import match, sub
