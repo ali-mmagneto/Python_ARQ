@@ -224,7 +224,7 @@ class Arq:
             thumbsize=thumbsize,
         )
 
-    async def luna(self, query: str, id: int = 0):
+    async def aichat(self, query: str, id: int = 0):
         """
         Returns An Object.
 
@@ -234,7 +234,7 @@ class Arq:
                 Returns:
                         result object (str): Result
         """
-        return await self._fetch("luna", query=query, id=id)
+        return await self._fetch("aichat", query=query, id=id)
 
     async def lyrics(self, query: str):
         """
